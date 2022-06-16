@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">NewsApp</string>
-    <string name="appbar_title">News Feed</string>
+    <string name="appbar_title">News App</string>
     <string name="tabs_content_description">Tabs</string>
     <string name="api_key">4785775f4b00412abac202c35dc0f022</string>
 </resources>
