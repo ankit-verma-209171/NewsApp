@@ -3,4 +3,14 @@
     <string name="appbar_title">News App</string>
     <string name="tabs_content_description">Tabs</string>
     <string name="api_key">4785775f4b00412abac202c35dc0f022</string>
+    <string name="dummy_headline">Main Heading display here\nmain heading\ndisplay here</string>
+    <string name="dummy_content">Main Content</string>
+    <string name="dummy_author_name">By Ankit</string>
+    <string name="published_time">Published At</string>
+    <string name="home">home</string>
+    <string name="sports">sports</string>
+    <string name="health">health</string>
+    <string name="science">science</string>
+    <string name="entertainment">entertainment</string>
+    <string name="technology">technology</string>
 </resources>

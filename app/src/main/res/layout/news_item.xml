@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="275dp">
+    android:layout_height="285dp"
+    android:paddingVertical="10dp">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="2dp"
+        android:layout_margin="5dp"
         android:elevation="5dp"
         android:padding="10dp">
 
@@ -23,7 +24,7 @@
                 android:ellipsize="end"
                 android:maxLines="2"
                 android:padding="5dp"
-                android:text="Main Heading display here\nmain heading\ndisplay here"
+                android:text="@string/dummy_headline"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -42,7 +43,7 @@
                     android:ellipsize="end"
                     android:maxLines="6"
                     android:padding="5dp"
-                    android:text="Main Content"
+                    android:text="@string/dummy_content"
                     android:textSize="15sp" />
 
                 <ImageView
@@ -61,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:text="By Ankit"
+                android:text="@string/dummy_author_name"
                 android:textColor="@color/purple_200"
                 android:textSize="13sp"
                 android:textStyle="italic" />
@@ -71,10 +72,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="5dp"
+                android:text="@string/published_time"
                 android:textColor="@color/black"
-                android:text="Published At"
-                android:textStyle="bold"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
