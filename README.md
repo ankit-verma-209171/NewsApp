@@ -13,7 +13,7 @@ Simple NewApp developed using Java
 ## Screenshots
 
 Home Screen
-![home screen](screenshots/1658860766323.jpg)
+![home screen](screenshots/1658860766343.jpg)
 
 Web View Screen
-![web view screen](screenshots/1658860766343.jpg)
+![web view screen](screenshots/1658860766323.jpg)
